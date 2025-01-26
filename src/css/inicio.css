@@ -1,0 +1,49 @@
+#pedidos{
+    list-style-type: none;
+    background-color: #f1f1f1;
+    box-shadow:1px 3px 3px #c5c5c5;
+    padding: 12pt;
+    border-radius: 7pt;
+}
+
+#pedidos h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15pt;
+}
+
+#pedidos ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20pt;
+}
+
+#pedidos ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10pt;
+    border-radius: 8pt;
+    color: white;
+    width: 28.33%;
+    font-size: 16pt;
+}
+
+#qtd_andamento{
+    background-color: rgb(231, 218, 41);
+    border:2px solid rgb(109, 104, 31);
+}
+
+#qtd_concluido{
+    background-color: rgb(74, 197, 63);
+    border: 2px solid rgb(42, 113, 36);
+}
+
+#qtd_cancelado{
+    background-color: rgb(236, 80, 72);
+    border: 2px solid rgb(105, 35, 31);
+}

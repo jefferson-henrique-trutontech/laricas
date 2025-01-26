@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../../src/css/main.css">
     <link rel="icon" type="image/png" sizes="32x32" href="../../src/img/icon.png">
     <?=isset($css) ? "<link rel='stylesheet' href='../../src/css/$css.css'>" : ''?>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Sistema Laricas - <?=$title?></title>
 </head>
 <body>
